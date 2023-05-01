@@ -10,8 +10,8 @@ Computing $\sqrt{A}$ is equivalent to solving $x^{2} - A = 0.$ The nimner $\sqrt
     $x_{i+1} = x_{i} - f(x_{i})\left(\frac{x_{i}-x_{i-1}}{f(x_{i})-f(x_{i-1})}  \right)$
 
 3. Check the if $[x_1, x_2]$ bracket the root $f(x_1)f(x_2) < 0$
-    - if YES continue to the next interation, $x_{i-1} = x_{1}$
-    - if No, $x_{i-1} = x_{0}, x_{0} = x_{2}$
+    - if YES continue to the next interation, $x_{i-1} = x_{1}, x_{i} = x_{2}$
+    - if No, $x_{i-1} = x_{0}, x_{i} = x_{2}$
 
 4. Repeat step 2-3 until stop condition * :
    - $f(x) < epsilon$
