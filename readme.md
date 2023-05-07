@@ -40,14 +40,21 @@ The false position method(Reqular Falsi) works as follows:
 
     $x_{i+1} = x_{i} - f(x_{i})\left(\frac{x_{i}-x_{i-1}}{f(x_{i})-f(x_{i-1})}  \right)$
 
+<<<<<<< HEAD
 4. Check the if $[x_1, x_2]$ bracket the root $f(x_1)f(x_2) < 0$
     - if YES continue to the next interation, $x_{i-1} = x_{1}$
     - if No, $x_{i-1} = x_{0}, x_{0} = x_{2}$
+=======
+3. Check the if $[x_1, x_2]$ bracket the root $f(x_1)f(x_2) < 0$
+    - if YES continue to the next interation, $x_{i-1} = x_{1}, x_{i} = x_{2}$
+    - if No, $x_{i-1} = x_{0}, x_{i} = x_{2}$
+>>>>>>> 67218a7f4cdf77c9d5298a266d5e77c6dac5cab1
 
 5. Repeat step 3-4  until a stop condition is met:
    - $f(x) < epsilon$
    - $|\frac{x - x_{prev}}{x}| < epsilon$
    - iteration > max_iteration
+<<<<<<< HEAD
 
 In this program, we are using the above algorithm to solve the equation $x^{2} - A = 0.$ to find the square root of A.
 
@@ -94,3 +101,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * This program is based on the False Position method described in "Numerical Methods for Engineers" by Steven C. Chapra and Raymond P. Canale.
+=======
+>>>>>>> 67218a7f4cdf77c9d5298a266d5e77c6dac5cab1
