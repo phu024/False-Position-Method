@@ -1,8 +1,8 @@
 /**
  * @Author: Phuwadon Decharam
- * @Created Date: 2565-05-01 16:58:00
+ * @Created Date: 2023-05-01 16:58:00
  * @Last Modified by: Phuwadon Decharam
- * @Last Modified time: 2565-05-01 17:00:00
+ * @Last Modified time: 2023-05-01 17:00:00
  */
 
 import java.util.Scanner;
